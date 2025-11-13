@@ -127,6 +127,52 @@ for i, data in enumerate(data_mahasiswa, start=1):
 
 print("-"*65)
 ```
+# 🔄 Flowchart Program
+```pgsl
++---------------------+
+| Mulai               |
++---------+-----------+
+          |
+          v
++---------------------+
+| Input Nama, Tugas,  |
+| UTS, dan UAS        |
++---------+-----------+
+          |
+          v
++---------------------+
+| Hitung Nilai Akhir  |
+| (0.3*T + 0.35*U +   |
+|  0.35*A)            |
++---------+-----------+
+          |
+          v
++---------------------+
+| Simpan ke List      |
++---------+-----------+
+          |
+          v
++---------------------+
+| Tambah data lagi?   |
+| (y/t)               |
++----+----------------+
+     |y
+     v
+  (Kembali input)
+     |
+     t
+     v
++---------------------+
+| Tampilkan semua     |
+| data mahasiswa      |
++---------+-----------+
+          |
+          v
++---------------------+
+| Selesai             |
++---------------------+
+```
+
 # 🧾 Kesimpulan
 
 -Dari praktikum ini dapat disimpulkan bahwa:
